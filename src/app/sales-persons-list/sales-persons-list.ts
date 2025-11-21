@@ -4,7 +4,7 @@ import { SalesPerson } from './sales-person';
 @Component({
   selector: 'app-sales-persons-list',
   standalone: false,
-  templateUrl: './sales-persons-list.html',
+  templateUrl: './sales-persons-list-bootstrap.html',
   styleUrl: './sales-persons-list.css',
 })
 export class SalesPersonsList {

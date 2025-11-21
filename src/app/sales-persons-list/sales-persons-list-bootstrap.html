@@ -9,7 +9,7 @@
         </tr>
     </thead>
     <tbody>
-        <tr *ngFor="let tempPerson of salePersonsList">
+        <tr *ngFor="let tempPerson of salePersonsList" [ngClass]="{'highlight': tempPerson.salesVolume >= 60000}">
             <td>{{ tempPerson.firstName }}</td>
             <td>{{ tempPerson.lastName }}</td>
             <td>{{ tempPerson.email }}</td>
